@@ -41,6 +41,38 @@ public class @MyCons : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""NextAbility"",
+                    ""type"": ""Button"",
+                    ""id"": ""ddef27e2-e47e-4aef-8a1b-8587e89c22d4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""PrevAbility"",
+                    ""type"": ""Button"",
+                    ""id"": ""67731139-ffc6-48d1-988e-4ecdd7929e49"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""UseAbility"",
+                    ""type"": ""Button"",
+                    ""id"": ""d89fa843-4e41-4a4f-b46a-f58e298cdd95"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""ModeToggle"",
+                    ""type"": ""Button"",
+                    ""id"": ""4a11aa72-6b2f-4e82-a86b-b3a9452d0b0c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -92,6 +124,61 @@ public class @MyCons : IInputActionCollection, IDisposable
                     ""name"": ""right"",
                     ""id"": ""270ff2fe-e400-4de5-abb2-6a214ed52d6b"",
                     ""path"": ""<Gamepad>/leftStick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""69ad5e54-07d2-429d-b951-30a4653b3d30"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""d71775f5-c3f1-422f-8e2e-c4941a6d370c"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""e9f09803-ea29-466c-bdf4-f7c66428ac81"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""8956c453-38b4-4e95-bc2b-ba91b966ea0c"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""0b895bae-1557-4014-a55b-7a43dba9c5db"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -164,6 +251,94 @@ public class @MyCons : IInputActionCollection, IDisposable
                     ""action"": ""Fire"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""238095c8-d3ad-4b97-9ac6-7c7a20545ab4"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": ""Press(behavior=2)"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fire"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""966d0ee7-0cf7-4bd7-b94b-58f9a84f51bd"",
+                    ""path"": ""<Gamepad>/dpad/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextAbility"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d7cf33ac-2df9-4e8d-bd47-fd35c0f7e70a"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextAbility"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a7f526e8-db1d-4ae2-9882-744a4e26dd9f"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevAbility"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5ef2f82d-2b7b-43ca-aa67-c4310d902844"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevAbility"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""562c85bb-557c-43a3-987a-19866041309a"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseAbility"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3869a7cf-1509-41de-bd7a-0715e3f96680"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseAbility"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0bde4ec5-f5b0-4c32-b1fc-b6ffb6146ac9"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ModeToggle"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -175,6 +350,10 @@ public class @MyCons : IInputActionCollection, IDisposable
         m_TPS_Move = m_TPS.FindAction("Move", throwIfNotFound: true);
         m_TPS_Look = m_TPS.FindAction("Look", throwIfNotFound: true);
         m_TPS_Fire = m_TPS.FindAction("Fire", throwIfNotFound: true);
+        m_TPS_NextAbility = m_TPS.FindAction("NextAbility", throwIfNotFound: true);
+        m_TPS_PrevAbility = m_TPS.FindAction("PrevAbility", throwIfNotFound: true);
+        m_TPS_UseAbility = m_TPS.FindAction("UseAbility", throwIfNotFound: true);
+        m_TPS_ModeToggle = m_TPS.FindAction("ModeToggle", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -227,6 +406,10 @@ public class @MyCons : IInputActionCollection, IDisposable
     private readonly InputAction m_TPS_Move;
     private readonly InputAction m_TPS_Look;
     private readonly InputAction m_TPS_Fire;
+    private readonly InputAction m_TPS_NextAbility;
+    private readonly InputAction m_TPS_PrevAbility;
+    private readonly InputAction m_TPS_UseAbility;
+    private readonly InputAction m_TPS_ModeToggle;
     public struct TPSActions
     {
         private @MyCons m_Wrapper;
@@ -234,6 +417,10 @@ public class @MyCons : IInputActionCollection, IDisposable
         public InputAction @Move => m_Wrapper.m_TPS_Move;
         public InputAction @Look => m_Wrapper.m_TPS_Look;
         public InputAction @Fire => m_Wrapper.m_TPS_Fire;
+        public InputAction @NextAbility => m_Wrapper.m_TPS_NextAbility;
+        public InputAction @PrevAbility => m_Wrapper.m_TPS_PrevAbility;
+        public InputAction @UseAbility => m_Wrapper.m_TPS_UseAbility;
+        public InputAction @ModeToggle => m_Wrapper.m_TPS_ModeToggle;
         public InputActionMap Get() { return m_Wrapper.m_TPS; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -252,6 +439,18 @@ public class @MyCons : IInputActionCollection, IDisposable
                 @Fire.started -= m_Wrapper.m_TPSActionsCallbackInterface.OnFire;
                 @Fire.performed -= m_Wrapper.m_TPSActionsCallbackInterface.OnFire;
                 @Fire.canceled -= m_Wrapper.m_TPSActionsCallbackInterface.OnFire;
+                @NextAbility.started -= m_Wrapper.m_TPSActionsCallbackInterface.OnNextAbility;
+                @NextAbility.performed -= m_Wrapper.m_TPSActionsCallbackInterface.OnNextAbility;
+                @NextAbility.canceled -= m_Wrapper.m_TPSActionsCallbackInterface.OnNextAbility;
+                @PrevAbility.started -= m_Wrapper.m_TPSActionsCallbackInterface.OnPrevAbility;
+                @PrevAbility.performed -= m_Wrapper.m_TPSActionsCallbackInterface.OnPrevAbility;
+                @PrevAbility.canceled -= m_Wrapper.m_TPSActionsCallbackInterface.OnPrevAbility;
+                @UseAbility.started -= m_Wrapper.m_TPSActionsCallbackInterface.OnUseAbility;
+                @UseAbility.performed -= m_Wrapper.m_TPSActionsCallbackInterface.OnUseAbility;
+                @UseAbility.canceled -= m_Wrapper.m_TPSActionsCallbackInterface.OnUseAbility;
+                @ModeToggle.started -= m_Wrapper.m_TPSActionsCallbackInterface.OnModeToggle;
+                @ModeToggle.performed -= m_Wrapper.m_TPSActionsCallbackInterface.OnModeToggle;
+                @ModeToggle.canceled -= m_Wrapper.m_TPSActionsCallbackInterface.OnModeToggle;
             }
             m_Wrapper.m_TPSActionsCallbackInterface = instance;
             if (instance != null)
@@ -265,6 +464,18 @@ public class @MyCons : IInputActionCollection, IDisposable
                 @Fire.started += instance.OnFire;
                 @Fire.performed += instance.OnFire;
                 @Fire.canceled += instance.OnFire;
+                @NextAbility.started += instance.OnNextAbility;
+                @NextAbility.performed += instance.OnNextAbility;
+                @NextAbility.canceled += instance.OnNextAbility;
+                @PrevAbility.started += instance.OnPrevAbility;
+                @PrevAbility.performed += instance.OnPrevAbility;
+                @PrevAbility.canceled += instance.OnPrevAbility;
+                @UseAbility.started += instance.OnUseAbility;
+                @UseAbility.performed += instance.OnUseAbility;
+                @UseAbility.canceled += instance.OnUseAbility;
+                @ModeToggle.started += instance.OnModeToggle;
+                @ModeToggle.performed += instance.OnModeToggle;
+                @ModeToggle.canceled += instance.OnModeToggle;
             }
         }
     }
@@ -274,5 +485,9 @@ public class @MyCons : IInputActionCollection, IDisposable
         void OnMove(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
+        void OnNextAbility(InputAction.CallbackContext context);
+        void OnPrevAbility(InputAction.CallbackContext context);
+        void OnUseAbility(InputAction.CallbackContext context);
+        void OnModeToggle(InputAction.CallbackContext context);
     }
 }
